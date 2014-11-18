@@ -1,0 +1,807 @@
+
+<!-- saved from url=(0047)http://www.adavicity.com/UnixAdministration.htm -->
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:st1="urn:schemas-microsoft-com:office:smarttags" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 11">
+<meta name="Originator" content="Microsoft Word 11">
+<link rel="File-List" href="http://www.adavicity.com/UnixAdministration_files/filelist.xml">
+<title>Adavicty and Unix</title>
+</head><body bgcolor="#99CC00" lang="EN-US" link="blue" vlink="purple" style="tab-interval:
+.5in"><o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="State">
+<o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="City">
+<o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="place">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Dad</o:Author>
+  <o:LastAuthor>pargenio</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>92</o:TotalTime>
+  <o:LastPrinted>2005-02-28T21:21:00Z</o:LastPrinted>
+  <o:Created>2009-07-26T21:06:00Z</o:Created>
+  <o:LastSaved>2009-07-27T00:20:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1614</o:Words>
+  <o:Characters>9203</o:Characters>
+  <o:Company>Amtrak PSCC</o:Company>
+  <o:Lines>76</o:Lines>
+  <o:Paragraphs>21</o:Paragraphs>
+  <o:CharactersWithSpaces>10796</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>0</w:HyphenationZone>
+  <w:DoNotHyphenateCaps/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotShadeFormData/>
+  <w:Compatibility>
+   <w:PrintColBlack/>
+   <w:ShowBreaksInFrames/>
+   <w:SuppressSpBfAfterPgBrk/>
+   <w:SwapBordersFacingPages/>
+   <w:ConvMailMergeEsc/>
+   <w:UsePrinterMetrics/>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:NoSpaceRaiseLower/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+   <w:UseWord97LineBreakingRules/>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"CG Times";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"CG Times";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+h4
+	{mso-style-next:"Heading 6";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"CG Times";
+	font-weight:normal;
+	text-decoration:underline;
+	text-underline:single;}
+h5
+	{mso-style-next:"Heading 6";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:10.0pt;
+	font-family:"CG Times";
+	mso-bidi-font-weight:normal;}
+h6
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:10.0pt;
+	font-family:"CG Times";
+	font-weight:normal;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:"Heading 6";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	font-size:10.0pt;
+	font-family:"CG Times";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:"Heading 6";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	font-size:10.0pt;
+	font-family:"CG Times";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:"Heading 6";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:9;
+	font-size:10.0pt;
+	font-family:"CG Times";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-noshow:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"CG Times";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:10.0pt;
+	font-family:"CG Times";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:10.0pt;
+	font-family:"CG Times";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.MsoFootnoteReference
+	{mso-style-noshow:yes;
+	mso-ansi-font-size:8.0pt;
+	position:relative;
+	top:-3.0pt;
+	mso-text-raise:3.0pt;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:none;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-indent:.5in;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"CG Times";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+span.cbstyle
+	{mso-style-name:cb_style;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("UnixAdministration_files/header.htm") fs;
+	mso-footnote-continuation-separator:url("UnixAdministration_files/header.htm") fcs;
+	mso-endnote-separator:url("UnixAdministration_files/header.htm") es;
+	mso-endnote-continuation-separator:url("UnixAdministration_files/header.htm") ecs;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in .8in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-footer:url("UnixAdministration_files/header.htm") f1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:829249717;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1590374722 67698693 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:1199782240;
+	mso-list-template-ids:-1504123122;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:1586915411;
+	mso-list-type:hybrid;
+	mso-list-template-ids:768506970 67698693 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074">
+  <o:colormenu v:ext="edit" fillcolor="#9c0"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+
+
+
+
+<div class="Section1">
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Adavicity
+and Unix <span style="mso-tab-count:9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b style="mso-bidi-font-weight:
+normal"><span style="font-family:&quot;Times New Roman&quot;">last updated July, 2009<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Adavicity has played a Unix support role since
+the 1980’s when SunOS workstations costing $25K apiece were common in
+engineering environments.<span style="mso-spacerun:yes">&nbsp; </span>Much has
+changed since those days.<span style="mso-spacerun:yes">&nbsp; </span>The desktop
+has become commoditized and Unix had been moving into the server room until the
+promise of Linux threatened to unwind the Windows advantage.<span style="mso-spacerun:yes">&nbsp; </span>Will ChromeOS from Google finally drive nails
+into a Microsoft coffin?<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Meantime, there are many Unix applications and
+servers that must be supported today.<span style="mso-spacerun:yes">&nbsp; </span>At
+Amtrak, porting multiple applications to Solaris 10 is providing a bridge to
+the future.<span style="mso-spacerun:yes">&nbsp; </span>This includes a large
+C++/Motif desktop graphical train control system and a perl-based intranet
+schedule reporting system.<span style="mso-spacerun:yes">&nbsp; </span>The project
+involves the update, intimate use and building of Apache, MySql, Java, Perl and
+many CPAN modules, an in-depth analysis of Solaris 10 changes, development of
+scripts and configuration functions and identifying the impact of TCP/IP
+performance enhancements in Solaris 10.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Adavicity has completed modifications to
+replication and rollout scripts, determination of the need for firmware
+upgrades, analysis of disk and network configuration and evaluation of Solaris
+10 on a PC.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Adavicity supports Systems Administration,
+Configuration Management and Quality Assurance.<span style="mso-spacerun:yes">&nbsp;
+</span>Adavicity is the primary source of Unix script development.<span style="mso-spacerun:yes">&nbsp; </span>Adavicity automates tasks using scripts,
+scheduling tools such as cron, and other Unix utilities.<span style="mso-spacerun:yes">&nbsp; </span>The preferred shell here is Korn, so
+Adavicity continues this tradition by upgrading existing Korn scripts and
+writing new ones in ksh.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">To automate the build process, Adavicity uses
+two common tools: Make and Ant and their corresponding makefiles and XML.<span style="mso-spacerun:yes">&nbsp; </span>To provide control and monitoring of </span><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;">Apache, MySQL, Java and
+C++ applications, Adavicity has used Korn shell scripts and SQL.<span style="mso-spacerun:yes">&nbsp; </span>We helped automate backup/replicate process
+for MySql.<span style="mso-spacerun:yes">&nbsp; </span>We also created a
+“unification” system that encapsulates differences among all production
+machines in a simple ascii file, simplifying rollout/replacement.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">More
+Adavicity Accomplishments at Amtrak<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;">Automated
+other build and deploy processes in Perl and Korn shell scripts with TCP/IP.</span><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;"><span style="mso-spacerun:yes">&nbsp; </span>Modifications/enhancements to the GUI
+front-end “Track Model Animator” and editing software in C/C++ and Motif<b style="mso-bidi-font-weight:normal">.</b><span style="mso-spacerun:yes">&nbsp;
+</span>Working with Motif UIL files and UIL editor.<span style="mso-spacerun:yes">&nbsp; </span>Served as Motif and C/C++ expert.<span style="mso-spacerun:yes">&nbsp; </span>(Application displays a scalable track model
+of tracks, switches, signals, trains and other objects.)<span style="mso-spacerun:yes">&nbsp; </span>Also programmed time setting program.<span style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Administer and support object client/server
+version management (“True”) software on Unix, Windows and HP-Nonstop (formerly
+Tandem) systems.<span style="mso-spacerun:yes">&nbsp; </span>Unix system
+administration tasks including all aspects of Unix automation through
+scripting, supporting users, patch levels, vendor interface, performance and
+some network administration.<span style="mso-spacerun:yes">&nbsp; </span>Also set up
+and configured CDE and window manager menus and resources, application
+resources and xinit startup of the X server and applications (turnkey).<span style="mso-spacerun:yes">&nbsp; </span>Unified diverse Unix machines.<span style="mso-spacerun:yes">&nbsp; </span>Taught Unix course.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Automated the release process, created suite of
+release and distribution tools in ksh and perl, restructured source file tree
+to eliminate duplicate code, instituted tracking policies, brought all internal
+and third party software under source control, created startup and turnkey
+scripts for the application on several platforms.<span style="mso-spacerun:yes">&nbsp; </span>Also pitched in on development effort,
+debugging a time setting C++ program that runs on HP-Nonstop and Unix,
+debugging serial I/O to the program and the setting of a wall clock.<span style="mso-spacerun:yes">&nbsp; </span>Debugged and configured tape backups, machine
+reboot and many other Unix administration tasks.<span style="mso-spacerun:yes">&nbsp; </span>Also created many tools using Unix scripts and
+maintained TACL scripts to automate the installation of software and to configure
+maintain and operate the development, test and production systems.<span style="mso-spacerun:yes">&nbsp; </span>Added users, configured startup scripts,
+built machines, installed SSH, configured Apache and other Unix Administration.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Achievements:<o:p></o:p></span></p>
+
+<ul style="margin-top:0in" type="square">
+ <li class="MsoNormal" style="mso-list:l2 level1 lfo3;tab-stops:list .5in"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Developed
+     CM tool suite to build and distribute the application on four platforms<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-list:l2 level1 lfo3;tab-stops:list .5in"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Developed
+     start/control/monitor/stop cradle for the application<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-list:l2 level1 lfo3;tab-stops:list .5in"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Developed
+     a unified workstation model for all desktop Unix systems<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-list:l2 level1 lfo3;tab-stops:list .5in"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Located
+     and fixed a critical GUI bug that had evaded developers for 5 years.<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-list:l2 level1 lfo3;tab-stops:list .5in"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Created
+     configuration-file-driven file transfer front-end in perl<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-list:l2 level1 lfo3;tab-stops:list .5in"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Completed,
+     enhanced and maintained 3-platform clock program and tools<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-list:l2 level1 lfo3;tab-stops:list .5in"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Exercised
+     QA regression scripts and supported 3 month 24-7 availability tests<o:p></o:p></span></li>
+</ul>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">[May
+1997 – Present]<o:p></o:p></span></i></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:
+normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:
+&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></i></b></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Adavicity
+Accomplishments at Hudson-Bergen Light Rail; <st1:place w:st="on"><st1:city w:st="on">Jersey City</st1:city>, <st1:state w:st="on">NJ</st1:state></st1:place><o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">This is another transportation company and
+Adavicity takes pride in helping to provide convenient and economical
+mass-transit.<span style="mso-spacerun:yes">&nbsp; </span>The system is due for an
+upgrade but meantime performs admirably on DEC-Alpha servers running Tru64
+Unix.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Supporting a Tru64 Alpha train control system
+can be challenging but Adavicity has risen to the challenge of keeping the
+system operating 24x7.<span style="mso-spacerun:yes">&nbsp; </span>Sometimes this
+means getting out of bed at 2, 3 or 4 AM!<span style="mso-spacerun:yes">&nbsp;
+</span>It also means creating suites of scripts to automate backups, disk space
+monitoring, system performance monitoring and network trouble alerting.<span style="mso-spacerun:yes">&nbsp; </span>Disk space in particular presented a serious
+challenge to system stability.<span style="mso-spacerun:yes">&nbsp; </span>After
+installation of Adavicity products two years ago, the system has been stable
+and has not crashed due to disk space issues.<span style="mso-spacerun:yes">&nbsp;
+</span>In fact, the only system failures have been hardware-related.<span style="mso-spacerun:yes">&nbsp; </span>Of these, unplanned downtime totaled one hour
+in the past two years.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Adavicity regularly configures and supports
+various real-time devices connected to the servers.<span style="mso-spacerun:yes">&nbsp; </span>Supports IT infrastructure, Oracle and
+Windows desktops.<span style="mso-spacerun:yes">&nbsp; </span>We upgraded Oracle
+from version 8.0 to 9i, recreating all users, views, stored procedures and
+Crystal Reports. and maintaining data integrity with no user impact.<span style="mso-spacerun:yes">&nbsp; </span>We also administer Oracle daily operations
+and backups (2 of the 3 recommended methods).<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Other Adavicity Achievements:<i style="mso-bidi-font-style:normal"><o:p></o:p></i></span></p>
+
+<p class="MsoNormal" style="margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:14.0pt;
+mso-bidi-font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt">Replace old, failure-prone
+excel VBA reporting process that took over 5 minutes to run with a
+fuller-featured perl script running in 2-3 seconds.</span><i style="mso-bidi-font-style:
+normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:
+&quot;Times New Roman&quot;"><o:p></o:p></span></i></p>
+
+<p class="MsoNormal" style="margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:14.0pt;
+mso-bidi-font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt">Upgrade “Spear 2000”
+database package and Oracle through nine versions (1999 to current) with no
+operational disruption while modifying a half-dozen interfaces</span><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:
+10.0pt;font-family:&quot;Times New Roman&quot;"><o:p></o:p></span></i></p>
+
+<p class="MsoNormal" style="margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:14.0pt;
+mso-bidi-font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt">Enhance Excel VBA
+program.<span style="mso-spacerun:yes">&nbsp; </span>Add a toolbar to accept dates
+as an input.</span><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;"><o:p></o:p></span></i></p>
+
+<p class="MsoNormal" style="margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:14.0pt;
+mso-bidi-font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt">Create VB/WSH script to
+automate train performance data correction &amp; database import</span><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:
+10.0pt;font-family:&quot;Times New Roman&quot;"><o:p></o:p></span></i></p>
+
+<p class="MsoNormal" style="margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:14.0pt;
+mso-bidi-font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt">Automate Unix file archiving
+and backup using perl/bash scripting</span><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;"><o:p></o:p></span></i></p>
+
+<p class="MsoNormal" style="margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:14.0pt;
+mso-bidi-font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt">Institute Configuration
+Management using “Perforce” CM product</span><i style="mso-bidi-font-style:
+normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:
+&quot;Times New Roman&quot;"><o:p></o:p></span></i></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">[January
+15, 2007 to Present]<o:p></o:p></span></i></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></i></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></i></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Adavicity
+Accomplishments at Medco Health Solutions; <st1:city w:st="on"><st1:place w:st="on">Plymouth</st1:place></st1:city> Meeting, PA<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Created monitoring tools and launching scripts
+for testing and production in bash, SQL and perl.<span style="mso-spacerun:yes">&nbsp; </span>Created makefile system to mirror Eclipse
+functionality.<span style="mso-spacerun:yes">&nbsp; </span>Helped port various other
+programs from VMS and Windows to Linux systems. Tested using TOAD in an Oracle
+environment and Redhat Linux.<span style="mso-spacerun:yes">&nbsp; </span>Developed
+two-part real-time simulator for control of pharmacy shipping system in C++
+using Windows Forms, MSMQ and multi-threaded, TCP/IP backend.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">[August
+2008 – March 2009]<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></i></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><i style="mso-bidi-font-style:
+normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:
+&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></i></b></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></i></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Adavicity
+Accomplishments at ActiveNetwork/SportsPower<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">This was an interesting opportunity to apply
+scraping knowledge and also some web technologies such as RSS.<span style="mso-spacerun:yes">&nbsp; </span>MySql and Linuix were in use and loading of
+feed data was accomplished via cron calling perl.<span style="mso-spacerun:yes">&nbsp; </span>The perl code extracted, transformed and
+loaded the data into the MySql database.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">It was also fun to implemented web spiders, a
+generalized news feed reader, a team name fuzzy matching library and date
+recognition and normalizing library. The RSS reader was generic enough to read
+more than 60 RSS news sources.<span style="mso-spacerun:yes">&nbsp; </span>Disk
+space was also an issue as there was so much data coming in.<span style="mso-spacerun:yes">&nbsp; </span>Firtunately, the Unix <i style="mso-bidi-font-style:
+normal">find</i> command is adequate for most tasks.<span style="mso-spacerun:yes">&nbsp; </span>This project used CVS for version control.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">[August,
+2007 to March, 2009]<o:p></o:p></span></i></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Adavicity
+Web Development<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">BidAttorney.com was a web site developed by and
+for Lawyers.<span style="mso-spacerun:yes">&nbsp; </span>When these
+non-professionals ran out of steam, they turned to Adavicity for LAMP
+development.<span style="mso-spacerun:yes">&nbsp; </span>In case you are not keeping
+up with the acronyms, that stands for Linux/Apache/MySql/PHP.<span style="mso-spacerun:yes">&nbsp; </span>You’ll have to look up PHP for yourself to
+know what that means, but I can tell you simply it is a script language similar
+to Javascript and perl, the invocation of which is embedded in web pages. <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">The case was with Pyramid Technologies.<span style="mso-spacerun:yes">&nbsp; </span>In both, Adavicity served as the
+administrator of a Linux machine with a static IP address (necessary for
+hosting your own sites).<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Complete the design and initial development of a
+prototype website matching consumers and attorneys using Linux/Apache/MySQL/PHP
+development environment.<span style="mso-spacerun:yes">&nbsp; </span>System
+administration for in-house Linux server.<span style="mso-spacerun:yes">&nbsp;
+</span>Complete setup and maintenance of Linux Apache server and static-IP<span style="mso-spacerun:yes">&nbsp; </span>for hosting web sites: <o:p></o:p></span></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></i></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></i></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Adavicity
+contributions at the Philadelphia Stock Exchange<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;">Wrote
+Unix scripted tools to allow sharing of testing resources among development
+staff.<span style="mso-spacerun:yes">&nbsp; </span>Also, supported daily operations,
+assisted in bringing new customers online, supported customer tests, supported
+users and interacted with vendors.<span style="mso-spacerun:yes">&nbsp; </span>There
+was a lot of programming work completed mostly on a Stratus running VOS and
+PL/1 and C.<span style="mso-spacerun:yes">&nbsp; </span>If you don’t know what these
+systems are, don’t worry too much I doubt there are very many left in
+operation.<span style="mso-spacerun:yes">&nbsp; </span>VOS is a cousin to Unix,
+having been developed from Multics just like Unix.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">[December
+1993 to May 1997]</span></i><span style="font-size:14.0pt;mso-bidi-font-size:
+10.0pt;font-family:&quot;Times New Roman&quot;"><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Adavicity
+at <st1:city w:st="on"><st1:place w:st="on">Franklin</st1:place></st1:city>
+Electronic Publishers<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></i></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Implemented parsers to read typesetting tapes
+using many Unix tools such as lex, sed, grep, awk, tr (many others) and C
+programs.<span style="mso-spacerun:yes">&nbsp; </span>Used trie data structures to
+create searchable compressed data.<span style="mso-spacerun:yes">&nbsp;
+</span>Performed Unix System Administration tasks, supported PC users, wrote
+utilities to read tapes from HP 3000 system.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">[1990]<o:p></o:p></span></i></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">Adavicity
+at Sonalysts, Inc.<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Developed entire display portion of radar and
+other sensor tracking, advance warning system.<span style="mso-spacerun:yes">&nbsp;
+</span></span><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">System showed contacts against a zoomable map of
+the world and maintained a graphics capable history of all data.<span style="mso-spacerun:yes">&nbsp; </span>This R&amp;D project was well behind schedule
+until I joined the team -- it was delivered on time.<span style="mso-spacerun:yes">&nbsp; </span>This system was implemented on a SunOS
+Sparcstation using C and Motif.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Maintained and upgraded text processing system
+on a DEC Vax.<span style="mso-spacerun:yes">&nbsp; </span>Investigated and wrote
+proposal for upgrade to Unisys embedded system.<span style="mso-spacerun:yes">&nbsp;
+</span>Supported Trident radio room software in assembly language.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">[1988]<o:p></o:p></span></i></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">At
+Telesciences CO Systems<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;">Began port of embedded real-time billing data
+collection system to new MC68000 based hardware using psos real-time kernel and
+C.<span style="mso-spacerun:yes">&nbsp; </span>Supported older 6809 based system in
+assembly language.<span style="mso-spacerun:yes">&nbsp; </span>Used trace emulator, ice,
+and other tools.<span style="mso-spacerun:yes">&nbsp; </span>Wrote tools, such as
+program flow analyzer, in C on Unix platform.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;">[1987]<o:p></o:p></span></i></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:10.0pt;
+font-family:&quot;Times New Roman&quot;"><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+
+
+
+</o:smarttagtype></o:smarttagtype></o:smarttagtype></body></html>

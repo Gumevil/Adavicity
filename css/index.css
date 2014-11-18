@@ -1,0 +1,230 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+div {
+	width:100vw;	
+	text-shadow: 3px 3px 3px black;
+	color: -webkit-linear-gradient(gray, white);
+	color: -o-linear-gradient(gray, white); /* For Opera 11.1 to 12.0 */
+	color: -moz-linear-gradient(gray, white); /* For Firefox 3.6 to 15 */
+	color: linear-gradient(gray, white);
+	background: -webkit-linear-gradient(top left, blue, #333375, blue, #333375, blue, #333375, blue);
+	background: -o-linear-gradient(top left, blue, #333375, blue, #333375, blue, #333375, blue);
+	background: -moz-linear-gradient(top left, blue, #333375, blue, #333375, blue, #333375, blue);
+	background: -ms-linear-gradient(top left, blue, #333375, blue, #333375, blue, #333375, blue);
+	background: linear-gradient(top left, blue, #333375, blue, #333375, blue, #333375, blue);
+}
+/*img {
+	width: 100px;
+	height: 80px;
+}*/
+.home{
+	width: 100%;
+	height: 3.4rem;
+	color: yellow;
+	position: absolute;
+	font-family: impact, tahoma, verdana;
+	font-size: 2.2rem;	
+	text-shadow: 2px 2px #663300;
+	padding: 2.8rem;
+	background: rgba(0, 0, 0, .25);
+	z-index: 3;
+	-webkit-animation: mymove 1.3s;  /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 1;  /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    animation: mymove 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.menu{
+	height: 20%;
+	width: 100vw;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: .1rem;	
+	z-index: 4;
+}
+.main{
+	width: 100%;
+	height: 60rem;
+	overflow: hidden;
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+	background: url("../images/keyboard.jpg") no-repeat;
+	background-size: cover;
+}
+#insideMain {
+	width: 40rem;
+	height: 30rem;
+	position: relative;
+	margin: 5rem auto;
+	display: none;
+	/*visibility: hidden;*/
+	float: center;
+}
+a{
+	width: 200px;
+	margin-left: 10px;
+	margin-right: auto;	
+	color: white;
+	font-size: 25px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+a:hover{
+	cursor: pointer;
+	color: white;
+	border-radius: 15px;
+	/*font-weight: bold;*/
+	background: #2F90CC;
+}
+#menu1,#menu2,#menu3, #menu4, #menu5, #menu6{
+	float: left;	
+	display: block;
+	padding:0 auto;
+}
+
+#timer1, #timer3, #timer5, #timer7{
+	width: 100%;
+	height: 1rem;
+	margin: 0 0 0 0;
+	padding: none;
+	float: right;
+    background-color: black;
+    opacity:0.8;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    font: 16px Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: lightgray;
+    text-align: center;
+    position: relative;
+    right: +100rem;
+    top: 0px;
+	overflow: hidden;   
+    z-index: 2;
+    -webkit-transition: left 0.3s ease-in-out;
+    -moz-transition: left 0.3s ease-in-out;
+    -o-transition: left 0.3s ease-in-out;
+    -ms-transition: left 0.3s ease-in-out;
+    transition: left 0.3s ease-in-out;
+}
+#timer2, #timer4, #timer6, #timer8{
+	width: 100%;
+	height: 1rem;
+	margin: 0 0 0 0;
+	display: inline-block;
+	clear: left;
+    background-color: black;
+    opacity:0.8;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    font: 16px Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: lightgray;
+    text-align: center;
+    padding: none;
+    position: relative;
+    left: -80rem;
+    top: 0px;
+	overflow: hidden;   
+    z-index: 2;	
+    -webkit-transition: right 0.3s ease-in-out;
+    -moz-transition: right 0.3s ease-in-out;
+    -o-transition: right 0.3s ease-in-out;
+    -ms-transition: right 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {top: -200px;}
+    to {top: 0px;}
+}
+
+@keyframes mymove {
+    from {top: -200px;}
+    to {top: 0px;}
+}
+
+@keyframes mymove {
+    from {top: -200px;}
+    to {top: 0px;}
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+/*@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}*/
